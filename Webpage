@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+        <head>
+	       <meta charset="utf-8">
+	       <title></title>
+	       <style type="text/css">
+	           @media(min-width800px){
+	           	.container{
+	           		display: flex;
+
+	           	}
+	           	.row{
+	           		display: flex;
+	           		flex-wrap: wrap;
+	           		justify-content: space-evenly;
+	           	}
+	           }
+	       	   body{
+	       	   	  margin: 0 px;
+	       	   	  padding: 0 px;
+	       	   	  color: black;
+	       	   	  background-color: whitesmoke;
+	       	   	  font-family: helvetica;
+	       	   }
+	       	   #navi{
+	       	   	  width: 100%;
+	       	   	  height: 10%;
+	       	   	  position: relative;
+	       	   }
+	       	   .logo img{
+	       	   	  height: 80 px;
+	       	   	  width: 180 px;
+	       	   }
+	       	   nav{
+	       	   	  display: flex;
+	       	   	  justify-content: space-around;
+	       	   	  align-items: center;
+	       	   	  position: fixed;
+	       	   	  top: 0;
+	       	   	  left: 0;
+	       	   	  width: 100%;
+	       	   	  background-color: dimgrey;
+	       	   }
+	       	   ul{
+	       	   	  list-style-type: none;
+	       	   	  display: flex;
+	       	   }
+	       	   .menu li a{
+	       	   	  height: 40px;
+	       	   	  line-height: 43px;
+	       	   	  margin: 3px;
+	       	   	  padding: 0px 22px;
+	       	   	  display: flex;
+	       	   	  font-size: 18px;
+	       	   	  text-transform: uppercase;
+	       	   	  font-weight: 500;
+	       	   	  letter-spacing: 0.5px;
+	       	   	  font-family: sans-serif;
+	       	   	  color: white;
+	       	   }
+	       	   .menu li a:hover{
+	       	   	  background-color: red;
+	       	   	  color: white;
+	       	   	  border-radius: 5px;
+	       	   	  box-shadow: 2px 2px 3px white;
+
+	       	   }
+	       	   a{
+	       	   	   text-decoration: none;
+	       	   }
+	       	   .intro{
+	       	   	  margin-top: 100px;
+	       	   	  margin-left: 10%;
+	       	   	  margin-right: 10%;
+	       	   	  color: black;
+	       	   }
+	       	   #intro1{
+	       	   	  margin-top: 300px;
+	       	   	  margin-left: 10%;
+	       	   	  margin-right: 10%;
+	       	   }
+	       	   .button{
+	       	   	  border-radius: :5px;
+	       	   }
+	       	   .button:hover, .button:active{
+	       	   	  background-color: red;
+	       	   	  color: white;
+	       	  
+	       	   }
+
+	       	   .button:link,.button:visited{
+	       	   	  background-color: white;
+	       	   	  color: black;
+	       	   	  border: 2px solid red;
+	       	   	  padding: 5px;
+	       	   	  text-align: center;
+	       	   	  display: inline-block;
+	       	   	  text-decoration: none;
+	       	   	  margin-left: 10px;
+	       	   }
+	       	   .button:hover, .button:active{
+	       	   	  background-color: red;
+	       	   	  color: white;
+	       	   	}
+	       	   	.block{
+	       	   		margin-left: 10%;
+	       	   		margin-right: 10%;
+	       	   	}
+	       	   	
+	       	   	
+	       	   	.conatiner{
+	       	   		
+	       	   		margin: 20px;
+	       	   		align-items: center;
+	       	   		max-width: 46%;
+	       	   		max-height: 46%;
+	       	   		background-color: dimgrey;
+	       	   		border-radius: 2%;
+	       	   	}
+	       	   	.conatiner:hover{
+	       	   		transform: scale(1.05);
+	       	   		box-shadow: 0 0 10px;
+
+	       	   	}
+	       	   	.image{
+	       	   		padding-left: 5%;
+	       	   		max-width: 20%;
+	       	   		max-height: 75%;
+
+	       	   	}
+	       	   	.avenge{
+	       	   		padding: 5%;
+	       	   		font-size: 90%;
+	       	   		color: black;
+	       	   	}
+	       	   	.block1{
+	       	   		margin-left:20% ;
+	       	   		margin-right: 20%;
+	       	   	}
+	       	   	table{
+	       	   		font-family: arial;
+	       	   		border-collapse:;
+	       	   		width: 100%;
+	       	   	}
+	       	   	td,th{
+	       	   		border: 5px solid darkred;
+	       	   		text-align: left;
+	       	   		padding: 18px;
+	       	   		color:black ;
+	       	   		font-size: 1.2 em;
+
+	       	   	}
+	       	   	th{
+	       	   		text-align: center;
+	       	   	}
+	       </style>
+        </head>
+        <body>
+        	<section id="navi">
+        		<nav>
+        			<a class="logo" href="#"><img src="marvel.png"></a>
+        			<span></span><span></span><span></span>
+        			<u1 class="menu">
+        				<li><a  href="#">Home</a></li>
+        				<li><a  href="#">Comics</a></li>
+        				<li><a  href="#">Characters</a></li>
+        				<li><a  href="#">Movies</a></li>
+        			</u1>
+        	    </nav
+        	</section>
+        	<section class="intro" id="intro1">
+        		<h1>The Marvel Cinemaic Universe</h1>
+        		<p>The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.</p>
+
+                <p>The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America: Civil War (2016) and concluded with Spider-Man: Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four began with Black Widow (2021).</p>
+                <p>For more information click this button   <a class="button" href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe" target="_blank">Marvel Universe</a></p>
+        	</section>
+        	<section class="intro">
+        		<h1 id="Comics">Marvel Comics</h1>
+        		<p>Marvel Comics is the brand name and primary imprint of Marvel Worldwide Inc., formerly Marvel Publishing, Inc. and Marvel Comics Group, a publisher of American comic books and related media. In 2009, The Walt Disney Company acquired Marvel Entertainment, Marvel Worldwide's parent company.</p>
+
+                <p>Marvel was started in 1939 by Martin Goodman under a number of corporations and imprints but now known as Timely Comics,[3] and by 1951 had generally become known as Atlas Comics. The Marvel era began in 1961, the year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had been used over the years, was solidified as the company's primary brand.</p>
+                <p>For more information click this button   <a class="button" href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe" target="_blank">Marvel Comics</a></p>
+
+        	</section>
+        	<div class="block">
+        		<h1 id="characters">Marvel Characters</h1>
+        		<div class="row">
+        			<div class="container">
+        				<img class="image" src="captainamerica.png">
+        				<div class="avenge">
+        					<h3>Captain America</h3>
+        					<p>Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the fifth film in the Marvel Cinematic Universe (MCU). The film was directed by Joe Johnston, written by Christopher Markus and Stephen McFeely, and stars Chris Evans as Steve Rogers / Captain America alongside Tommy Lee Jones, Hugo Weaving, Hayley Atwell, Sebastian Stan, Dominic Cooper, Neal McDonough, Derek Luke, and Stanley Tucci. During World War II, Steve Rogers, a frail man, is transformed into the super-soldier Captain America and must stop the Red Skull from using the Tesseract as an energy source for world domination.</p>
+        					<a class="button" href="captain.html">Read Profile</a>
+        					
+        				</div>
+        			<div class="container">
+        				<img class="image" src="ironman.png">
+        				<div class="avenge">
+        					<h3>Iron Man</h3>
+        					<p>Tony Stark is a genius, billionaire, philanthropist, and a founding member of the Avengers. A brilliant inventor, he designed the revolutionary high-tech exoskeleton powered by the Arc Reactor in his chest, becoming the armored superhero known as Iron Man.</p>
+        					<a class="button" href="captain.html">Read Profile</a>
+        					
+        				</div>	
+        			</div>
+
+        		</div>
+        		<div class="row">
+        			<div class="container">
+        				<img class="image" src="thor.png">
+        				<div class="avenge">
+        					<h3>Thor</h3>
+        					<p>Thor Odinson is the Asgardian God of Thunder, the former king of Asgard and New Asgard, and a founding member of the Avengers. When his irresponsible and impetuous behavior reignited a conflict between Asgard and Jotunheim, Thor was denied the right to become king, stripped of his power, and banished to Earth by Odin.</p>
+        					<a class="button" href="captain.html">Read Profile</a>
+        					
+        				</div>
+        			</div>
+        			<div class="container">
+        				<img class="image" src="blackwidow.png">
+        				<div class="avenge">
+        					<h3>Blackwidow</h3>
+        					<p>Natalia Alianovna "Natasha" Romanoff, also known as Black Widow (Russian: Наталья Алиановна "Наташа" Романова), was one of the most talented spies and assassins in the entire world and a founding member of the Avengers. </p>
+        					<a class="button" href="captain.html">Read Profile</a>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="row">
+        			<div class="container">
+        				<img class="image" src="hulk.png">
+        				<div class="avenge">
+        					<h3>Hulk</h3>
+        					<p>Doctor Robert Bruce Banner, M.D., Ph.D., is a renowned scientist and a founding member of the Avengers. Highly respected for his work in biochemistry, nuclear physics, and gamma radiation, he was commissioned by Thaddeus Ross to recreate the Super Soldier Serum which created Captain America, although Ross elected not to inform Banner what he was creating.</p>
+        					<a class="button" href="captain.html">Read Profile</a>
+        					
+        				</div>
+        			</div>
+        			<div class="container">
+        				<img class="image" src="hawkeye.png">
+        				<div class="avenge">
+        					<h3>Hawkeye</h3>
+        					<p>Clinton Francis "Clint" Barton, also known as Hawkeye, is a skilled marksman, a former special agent of S.H.I.E.L.D. and one of the founding members of the Avengers. Known for his use of the bow and arrow as his primary weapon, Barton had become one of the best agents of S.H.I.E.L.D., responsible for the recruitment of Black Widow, whom he developed a strong friendship with. Assigned by Nick Fury into watching over the Tesseract, he was brainwashed by Loki and used as his pawn for all his evil schemes. </p>
+        					<a class="button" href="captain.html">Read Profile</a>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<section class="block1">
+        		<h1 id="Movies">Marvel Movies</h1>
+        		<table>
+        			<thead>
+        				<tr style="background-color: grey;">
+        					<th>Movie Name</th>
+        					<th>Year of Release</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        				<tr>
+        					<td>Iron Man</td>
+        					<td>May 2,2008</td>
+        				</tr>
+        				<tr>
+        					<td>The Incredible Hulk</td>
+        					<td>June 13,2008</td>
+        				</tr>
+        				<tr>
+        					<td>Iron Man 2</td>
+        					<td>May 7.2010</td>
+        				</tr>
+        				<tr>
+        					<td>Thor</td>
+        					<td>May 6,2011</td>
+        				</tr>
+        				<tr>
+        					<td>Captain America: The First Avenger</td>
+        					<td>July 22, 2011</td>
+        				</tr>
+        				<tr>
+        					<td>Marvel's The Avengers</td>
+        					<td>May 4, 2012</td>
+        				</tr>
+        				<tr>
+        					<td>Iron Man 3</td>
+        					<td>May 3, 2013</td>
+        				</tr>
+        				<tr>
+        					<td>Thor: The Dark World</td>
+        					<td>November 8, 2013</td>
+        				</tr>
+        				<tr>
+        					<td>Captain America: The Winter Soldier</td>
+        					<td>April 4, 2014</td>
+        				</tr>
+        				<tr>
+        					<td>Guardians of the Galaxy</td>
+        					<td>August 1, 2014</td>
+        				</tr>
+
+        			</tbody>
+        		</table>
+        	</section>
+
+
+
+
+        </body>
+</html>
